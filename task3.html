@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+#pot {
+    bottom: 15%;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 15s;
+  }
+  @-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    48% {
+      -webkit-transform: rotateY(0deg); 
+    }
+    50% { 
+      left: calc(100% - 100px);
+      -webkit-transform: rotateY(180deg); 
+    }
+    98% {
+      -webkit-transform: rotateY(180deg); 
+    }
+    100% {
+      left: 0;    
+       -webkit-transform: rotateY(0deg);
+    }
+  }
+  </style>
+  </head>
+  <body background="https://wallpaperaccess.com/full/429863.jpg">
+  <div id="pot">
+    <img src="https://media1.giphy.com/media/clowNcRE9j0IYORJPJ/giphy.gif?cid=6c09b952py9h8zdafc9xzmhszgwdpla3k9umjcjnec6msx1w&rid=giphy.gif&ct=s">
+  </div>
+  </body>
+  </html>
